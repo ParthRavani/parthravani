@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Parth Ravani-Portfolio</title>
+		<meta charset="utf-8"/>
+		<link  rel="stylesheet" href="style.css" type="text/css"/>
+		<meta name="viewport" content="width=device-width, initial-state=1.0">
+	</head>
+	<body class="body">
+		<header class="mainHeader">
+			<img src="clr.jpg">
+			<nav>
+				<ul>
+					<li ><a href="index.html">Home </a></li>
+					<li ><a href="portfolio.html">Portfolio</a></li>
+					<li ><a href="contact.html">Contact</a></li>
+				</ul>
+				<!--<button ></button>-->
+			</nav>
+		</header>
+		<br>
+<div class="col-md-1" style="max-width:100%" >
+  <img class="mySlides" src="p1.jpg" style="width:100%">
+  <img class="mySlides" src="p2.jpg" style="width:100%">
+  <img class="mySlides" src="p3.jpg" style="width:100%">
+</div>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+<br>
+
+<content>
+	<aside class="middle-sidebar">
+		<h2>Bottom Left Bar</h2>
+		<p>
+		This is Dummt Text. It has survived not only five centuries, but also the leap into
+		electronic typesetting, remaining essentially unchanged.
+		</p>
+	</aside>
+	
+	<aside class="bottom-sidebar">
+		<h2>Bottom Mid Bar</h2>
+		<p>
+		This is Dummt Text. It has survived not only five centuries, but also the leap into
+		electronic typesetting, remaining essentially unchanged.
+		</p>
+	</aside>
+	<aside class="bottom-sidebar">
+		<h2>Bottom Right Bar</h2>
+		<p>
+		This is Dummt Text. It has survived not only five centuries, but also the leap into
+		electronic typesetting, remaining essentially unchanged.
+		</p>
+	</aside>
+</content>
+
+<br>
+	<footer class="mainFooter">
+		<section>
+		<p> Copyright &copy; 2016 <a href="#"><b>Parth Ravani<b></a> &nbsp <a href="https://in.linkedin.com/in/parthravani"><img height="20px" width="20px" src="in.png" />
+				<a href="https://www.facebook.com/poetparth"><img height="20px" width="20px" src="fb.png" /></p>
+	<section>
+	</footer>
+	</body>
+<html>
