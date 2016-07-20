@@ -55,7 +55,7 @@
 						Responsive Web Design is about using CSS and HTML to resize, hide, 
 						shrink, enlarge, or move the content to make it look good on any screen:</p>
 					</content>
-				</article>.
+				</article>
 			</div>
 		</div>
 		
